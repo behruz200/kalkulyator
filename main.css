@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ou {
+    /* width: 600px; */
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    color: blue;
+    box-shadow: none;
+    hover: none;
+    /* border: 2px solid red; */
+}
+
+.ou input {
+    text-align: right;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    flex: 1;
+    font-size: 45px;
+    /* border: 1px solid red; */
+}
+
+.calculyator {
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.calculyator form input {
+
+    width: 60px;
+    font-size: 35px;
+    height: 60px;
+    border-radius: 30px;
+    background: transparent;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    margin: 15px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    outline: none;
+    border: none;
+}
+
+.calculyator form input:hover {
+    border: 3px solid rgb(0, 60, 255);
+    /* transition: 1s; */
+}
+
+form input.equal {
+    width: 155px;
+}
+
+.df {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px; */
+}
+
+form input.sar {
+    background-color: rgb(255, 255, 11);
+}
+
+.back {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+form input.display {
+    box-shadow: none;
+    width: 350px;
+    text-align: right;
+    /* border: 1px solid red; */
+    background-color: #78511ec8;
+}
+
+.ch {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 130px; */
+
+}
